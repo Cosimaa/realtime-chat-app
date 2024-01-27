@@ -1,0 +1,28 @@
+============BASE SETUP====================================================================
+/public
+* npx create-react-app chat-app
+* yarn start - start react app
+* yarn add axios (api call) styled-components react-router-dom (routing)
+/server
+* npm init
+* npm i express mongoose nodemon socket.io bcrypt cors dotenv
+* set up server: index.js
+
+==========================================================================================
+* callback function is a function passed as an argument to another function
+* Promise is an object that link PRODUCING CODE and CONSUMING CODE
+- "Producing code" is code that can take some time
+- "Consuming code" is code that must wait for the result
+* "async and await make promises easier to write"
+- async makes a function return a Promise
+- await makes a function wait for a Promise
+# await keyword can only be used inside an async function
+===========================================================================================
+* React component names must always start with a capital letter, while HTML tags must be lowercase.
+* The export default keywords specify the main component in the file.
+* JSX is stricter than HTML. You have to close tags like <br />. Your component also can’t return multiple JSX tags. 
+You have to wrap them into a shared parent, like a <div>...</div> or an empty <>...</> wrapper.
+* You can only call Hooks at the top of your components (or other Hooks).
+If you want to use useState in a condition or a loop, extract a new component and put it there.
+=============================================================================================
+* yarn add buffer ?
